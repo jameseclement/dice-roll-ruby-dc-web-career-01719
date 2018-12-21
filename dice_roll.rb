@@ -4,7 +4,7 @@
 
 def roll
   possible = [1,2,3,4,5,6]
-  result = rand(1..6)
+  result = rand(0..5)
   return possible[result]
   
 end
